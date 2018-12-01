@@ -956,7 +956,12 @@ video::-internal-media-controls-download-button {
 	color: white;
 }
 .post-text{
+	height:41px;
 	margin-bottom: 4px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
 .font-white{
 	color: white;
