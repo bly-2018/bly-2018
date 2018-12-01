@@ -18,6 +18,7 @@ a:hover,
 a:focus,
 a:active{
 	color: #337ab7;
+	text-decoration: none;
 }
 img{
 	border:none;
@@ -935,4 +936,34 @@ video::-internal-media-controls-download-button {
 	width: 100%;
 	height: 4px;
 	background: transparent;
+}
+.article-container{
+	background: rgba(255,255,255,0.2);
+	padding: 20px 24px;
+	border-radius: 4px;
+	margin-top: 12px;
+}
+.article-container:hover{
+	background: rgba(255,255,255,0.14);
+}
+.post-title-1{
+	font-weight: bold;
+	font-size: 24px;
+	margin: 12px 0 14px 0;
+}
+.article-title{
+	font-size: 24px;
+	color: white;
+}
+.post-text{
+	margin-bottom: 4px;
+}
+.font-white{
+	color: white;
+}
+.font-white-grey{
+	color: rgba(255,255,255,0.8);
+}
+.font-white-grey-2{
+	color: rgba(255,255,255,0.5);
 }
