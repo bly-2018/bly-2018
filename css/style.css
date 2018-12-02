@@ -990,6 +990,9 @@ video::-internal-media-controls-download-button {
 	font-size: 24px;
 	margin: 12px 0 14px 0;
 }
+.post-title-1:hover{
+	text-decoration: underline;
+}
 .article-title{
 	font-size: 24px;
 	color: #333;
