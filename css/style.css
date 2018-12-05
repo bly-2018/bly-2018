@@ -248,6 +248,10 @@ img{
 .pro-intro-container>.pro-title.darker1{
 	color: #222;
 }
+
+.pro-intro-container>.pro-title.darker2{
+	color: #ff5000;
+}
 .pro-intro-container>.pro-title.pink{
 	color: #c44491;
 }
