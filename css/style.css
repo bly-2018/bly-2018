@@ -615,7 +615,8 @@ img{
 .concept1-r{
 	width: 33%; 
 	padding: 20px 12px 0 0;
-	float:left;
+	/*float:left;*/
+	margin: auto;
 }
 .key{
 	width: 120px;
