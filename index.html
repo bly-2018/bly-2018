@@ -332,6 +332,7 @@
 
 	<script type="text/javascript">
 		$(document).ready(function() { 
+			$("#img-over").hide();
 			$("#tagAll").click(function(){
 				$(".project-container").show();
 			});
@@ -379,7 +380,7 @@
 				$(this).siblings().removeClass("active");
 				$(this).addClass("active");
 			});
-			$("#img-over").hide();
+			
 			$(".post-daily-img").addClass("zoom-in");
 			$("#img-over").addClass("zoom-out");
 			$(".post-daily-img").click(function(){
