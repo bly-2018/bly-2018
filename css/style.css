@@ -1035,7 +1035,7 @@ video::-internal-media-controls-download-button {
 
 
 .post-daily-img { 
-	break-inside: avoid; 
+	/*break-inside: avoid; */
 	box-sizing: 
 	border-box; 
 	/*padding: 10px;*/
@@ -1044,25 +1044,25 @@ video::-internal-media-controls-download-button {
 	width: 97%;
 }
  
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 .masonry{
 	column-count: 2;
 }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
 .masonry{
 	column-count: 3;
 }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 890px) {
  .masonry{
  	column-count: 4;
  }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1181px) {
   .masonry{
   	column-count: 5;
   }
@@ -1100,6 +1100,13 @@ video::-internal-media-controls-download-button {
 	#img-over>.img-1{
 	width: 100%;
 }
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+.zoom-out {
+    cursor: zoom-out;
 }
 
 /*.masonry { 

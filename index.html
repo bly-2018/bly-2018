@@ -434,6 +434,8 @@
 				$(this).addClass("active");
 			});
 			$("#img-over").hide();
+			$(".post-daily-img").addClass("zoom-in");
+			$("#img-over").addClass("zoom-out");
 			$(".post-daily-img").click(function(){
 				$("#img-over").fadeIn(200);
 				img_src = $(this).attr('src');
