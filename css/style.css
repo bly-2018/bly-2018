@@ -656,9 +656,9 @@ img{
 	background-size: cover;
 	background-position: center;
 }
-.pro-container{
+/*.pro-container{
 	box-shadow: 0 1px 30px rgba(0,0,0,0.05);
-}
+}*/
 
 @media(max-width: 1200px) {
 	.img-ai-intro{
