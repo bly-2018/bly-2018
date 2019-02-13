@@ -268,13 +268,12 @@
 
 		<a href="writings.html" class="article-container" style="font-size: 16px; text-align: center; display: block;" >更多文章 ></a>
 
+		<div id="img-over" class="display-none">
+			<img class="img-1" src="imgs/post-daily/18-04-24.png" alt="" />
+		</div>
+
 		<div class="article-title" style="margin: 24px 0 10px 0;">我的短篇分享</div>
-
-
-			<div class="masonry">
-				<div id="img-over">
-					<img class="img-1" src="imgs/post-daily/18-04-24.png" alt="" />
-				</div>
+			<div class="masonry">				
 				<img class="post-daily-img" src="imgs/post-daily/18-04-24.png" alt="" />
 				<img class="post-daily-img" src="imgs/post-daily/18-04-26.png" alt="" />
 				<img class="post-daily-img" src="imgs/post-daily/18-04-27.png" alt="" />
@@ -290,7 +289,6 @@
 				<img class="post-daily-img" src="imgs/post-daily/18-05-25.png" alt="" />
 				<img class="post-daily-img" src="imgs/post-daily/18-05-28.png" alt="" />
 				<img class="post-daily-img" src="imgs/post-daily/18-06-04.png" alt="" />
-			
 				<img class="post-daily-img" src="imgs/post-daily/18-06-07.png" alt="" />
 				<img class="post-daily-img" src="imgs/post-daily/18-06-11.png" alt="" />
 				<img class="post-daily-img" src="imgs/post-daily/18-06-12.png" alt="" />
@@ -326,7 +324,7 @@
 
 	<script type="text/javascript">
 		$(document).ready(function() { 
-			$("#img-over").hide();
+			
 			$("#tagAll").click(function(){
 				$(".project-container").show();
 			});
@@ -378,12 +376,12 @@
 			$(".post-daily-img").addClass("zoom-in");
 			$("#img-over").addClass("zoom-out");
 			$(".post-daily-img").click(function(){
-				$("#img-over").fadeIn(200);
+				$("#img-over").removeClass("display-none");
 				img_src = $(this).attr('src');
 				$("#img-over>img").attr('src',img_src);
 			});
 			$("#img-over").click(function(){
-				$(this).fadeOut(200);
+				$(this).addClass("display-none");
 			});
 		}); 
 	</script>

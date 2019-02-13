@@ -1109,6 +1109,10 @@ video::-internal-media-controls-download-button {
     cursor: zoom-out;
 }
 
+.display-none{
+	display: none;
+}
+
 /*.masonry { 
 	display: grid; 
 	grid-gap: 12px; 
