@@ -1113,33 +1113,7 @@ video::-internal-media-controls-download-button {
 	display: none;
 }
 
-/*.masonry { 
-	display: grid; 
-	grid-gap: 12px; 
-	grid-template-columns: repeat(6, 1fr); 
-	grid-auto-rows: minmax(50px, auto); 
-}
-@media only screen and (max-width: 1200px) and (min-width: 900px){
-	.masonry { 
-		grid-gap: 12px;  
-		grid-template-columns: repeat(4, 1fr); 
-		grid-auto-rows: minmax(50px, auto); 
-	}
-}
-@media only screen and (max-width: 900px) and (min-width: 500px){
-	.masonry { 
-		grid-gap: 12px;  
-		grid-template-columns: repeat(2, 1fr); 
-		grid-auto-rows: minmax(50px, auto); 
-	}
-}
-@media only screen and (max-width: 499px){
-	.masonry { 
-		grid-gap: 12px;  
-		grid-template-columns: repeat(1, 1fr); 
-		grid-auto-rows: minmax(50px, auto); 
-	}
-}*/
+
 
 
 /*.masonry > div:nth-child(1) { 
