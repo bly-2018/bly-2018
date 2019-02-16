@@ -159,7 +159,7 @@
 					</div>
 				</div>
 			</a>
-			
+
 			<a href="pro-ar.html" target="_blank">
 				<div class="project-container Inno" style="background-color:#ffad54; background-image: url(imgs/pro-ar.png); background-size: cover; background-position: center;">
 					<div class="pro-intro-container">
@@ -179,7 +179,7 @@
 			</a>	
 
 			<a href="video/video-xid.mp4" target="_blank">
-				<div class="project-container UX AI" style="background-color:#d0eefb; background-image: url(imgs/pro-xid.png); background-size: cover; background-position: center;">
+				<div class="project-container Visual AI" style="background-color:#d0eefb; background-image: url(imgs/pro-xid.png); background-size: cover; background-position: center;">
 					<div class="pro-intro-container">
 						<div class="pro-title darker">eBay xID视频制作</div> 
 						<div class="pro-txt">识别不同设备、不同网站的同一个用户</div>
@@ -198,7 +198,7 @@
 			</a>
 
 			<a href="pro-journey.html" target="_blank">
-				<div class="project-container UX Visual frontend" style="background-color:#d0eefb; background-image: url(imgs/pro-journey.png); background-size: cover; background-position: center;">
+				<div class="project-container Visual frontend" style="background-color:#d0eefb; background-image: url(imgs/pro-journey.png); background-size: cover; background-position: center;">
 					<div class="pro-intro-container">
 						<div class="pro-title darker">eBay Journey 2016</div> 
 						<div class="pro-txt">A website showing users' behavior</div>
@@ -380,6 +380,10 @@
 				$(".project-container").not(".UX").hide();
 				$(".UX").show();
 			});
+			$("#tagVisual").click(function() {
+				$(".project-container").not(".Visual").hide();
+				$(".Visual").show();
+			});
 			$("#tagInno").click(function() {
 				$(".project-container").not(".Inno").hide();
 				$(".Inno").show();
@@ -392,6 +396,9 @@
 				$(".project-container").not(".AI").hide();
 				$(".AI").show();
 			});
+
+
+			
 			
 			$(".to-top").hide();
 			currTop = 0;
