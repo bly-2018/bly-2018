@@ -14,7 +14,7 @@
 	
 </head>
 <body class="home-body"> 
-	<div class="nav_banner" style="background-image: url(imgs/banner.png);">
+	<div class="nav_banner">
 		<nav class="navbar navbar-default navbar-transparent">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -38,23 +38,22 @@
 		</nav>
 		<div class="self-intro">
 			<!-- <div class="title"> 欢迎来到我的主页！</div>  -->
-			<div class="txt">理工科+设计学背景，学习能力强，喜欢创新。<br/>工作3年获得2次创新比赛一等奖，一次前5名，一次申请到一级发明专利。</div> 
+			<div class="txt" style="color: white;">理工科+设计学背景，学习能力强，喜欢创新。<br/>工作3年获得2次创新比赛一等奖，一次前5名，一次申请到一级发明专利。</div> 
 		</div>
 	</div>
 
 	<div class="container-my">
-		
-
 		<div class="tags-container flex flex--center">
 			<div class="tag active" id="tagAll" style="cursor: pointer;">全部</div>
-			<div class="tag" id="tagUX" style="cursor: pointer;">交互设计</div>
-			<div class="tag" id="tagResearch" style="cursor: pointer;">调研报告</div>
-			<div class="tag" id="tagInno" style="cursor: pointer;">创新设计</div>
-			<div class="tag" id="tagAI" style="cursor: pointer;">人工智能</div>
+			<div class="tag" id="tagUX" style="cursor: pointer;">交互</div>
+			<div class="tag" id="tagVisual" style="cursor: pointer;">视觉</div>
+			<div class="tag" id="tagResearch" style="cursor: pointer;">调研</div>
+			<div class="tag" id="tagInno" style="cursor: pointer;">创新</div>
+			<div class="tag" id="tagAI" style="cursor: pointer;">AI</div>
 		</div>
 
 		<!-- <div class="self-intro"> -->
-			<div class="txt" style="margin-bottom: 20px; text-align: center; margin-top: 30px;">—— 以下是在美团点评工作时的作品 ——</div> 
+			<div class="txt module-title" style="margin-bottom: 20px; text-align: center; margin-top: 30px;">—— 以下是在美团点评工作时的作品 ——</div> 
 		<!-- </div> -->
 
 		<div class="pro-container clearfix">
@@ -104,11 +103,11 @@
 				</div>
 			</a>
 
-			<a href="file/homepage.pdf" target="_blank">
-				<div class="project-container Research" style="background-color: #f6f6f6; background-image: url(imgs/pro-yun-research.png); background-size: cover; background-position: center;">
+			<a href="pro-logo.html" target="_blank">
+				<div class="project-container Visual" style="background-color: #2b2b2b; background-image: url(imgs/pro-logo/logo-color-trans-1.svg); background-size:70%; background-position: 50% 77%; background-repeat: no-repeat;">
 					<div class="pro-intro-container">
-						<div class="pro-title">云店助手调研报告</div> 
-						<div class="pro-txt">用户调研</div>
+						<div class="pro-title"> Logo Design </div> 
+						<div class="pro-txt">Meituan-Dianping logo design</div>
 					</div>
 				</div>
 			</a>
@@ -121,6 +120,17 @@
 					</div>
 				</div>
 			</a>
+
+			<a href="file/homepage.pdf" target="_blank">
+				<div class="project-container Research" style="background-color: #f6f6f6; background-image: url(imgs/pro-yun-research.png); background-size: cover; background-position: center;">
+					<div class="pro-intro-container">
+						<div class="pro-title">云店助手调研报告</div> 
+						<div class="pro-txt">用户调研</div>
+					</div>
+				</div>
+			</a>
+
+			
 
 
 			<a href="file/idea.pdf" target="_blank">
@@ -136,19 +146,20 @@
 		</div>
 
 		<!-- <div class="self-intro"> -->
-			<div class="txt" style="margin: 16px; text-align: center; margin-top: 30px;">—— 以下是在eBay工作时的作品 ——</div> 
+			<div class="txt module-title" style="margin: 16px; text-align: center; margin-top: 30px;">—— 以下是在eBay工作时的作品 ——</div> 
 		<!-- </div> -->
 
 		<div class="pro-container clearfix">
-			<a href="pro-ai.html" target="_blank">
-				<div class="project-container AI Inno UX" style="background-color:#4e9fe3; background-image: url(imgs/pro-ai.png); background-size: cover; background-position: center; ">
+						
+			<a href="pro-season.html" target="_blank">
+				<div class="project-container UX" style="background-color:#e57658; background-image: url(imgs/pro-season.png); background-size: cover; background-position: center;">
 					<div class="pro-intro-container">
-						<div class="pro-title">AI 购物助手</div> 
-						<div class="pro-txt">用 AI 聊天机器人帮你购物</div>
+						<div class="pro-title">Seasonality</div> 
+						<div class="pro-txt"> eBay internal data prodcut</div>
 					</div>
 				</div>
-			</a>			
-
+			</a>
+			
 			<a href="pro-ar.html" target="_blank">
 				<div class="project-container Inno" style="background-color:#ffad54; background-image: url(imgs/pro-ar.png); background-size: cover; background-position: center;">
 					<div class="pro-intro-container">
@@ -172,6 +183,43 @@
 					<div class="pro-intro-container">
 						<div class="pro-title darker">eBay xID视频制作</div> 
 						<div class="pro-txt">识别不同设备、不同网站的同一个用户</div>
+					</div>
+				</div>
+			</a>
+
+
+			<a href="pro-ai.html" target="_blank">
+				<div class="project-container AI Inno UX" style="background-color:#4e9fe3; background-image: url(imgs/pro-ai.png); background-size: cover; background-position: center; ">
+					<div class="pro-intro-container">
+						<div class="pro-title">AI 购物助手</div> 
+						<div class="pro-txt">用 AI 聊天机器人帮你购物</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="pro-journey.html" target="_blank">
+				<div class="project-container UX Visual frontend" style="background-color:#d0eefb; background-image: url(imgs/pro-journey.png); background-size: cover; background-position: center;">
+					<div class="pro-intro-container">
+						<div class="pro-title darker">eBay Journey 2016</div> 
+						<div class="pro-txt">A website showing users' behavior</div>
+					</div>
+				</div>
+			</a>
+
+		<!-- 	<a href="pro-front.html" target="_blank">
+				<div class="project-container frontend" style="background-color: #272822;background-image: url(imgs/pro-front.png); background-size: cover; background-position: center;">
+					<div class="pro-intro-container">
+						<div class="pro-title">Front End </div> 
+						<div class="pro-txt">HTML/CSS/JS coding</div>
+					</div>
+				</div>
+			</a> -->
+
+			<a href="pro-visual.html" target="_blank">
+				<div class="project-container Visual Video" style="background-color: #22786e; background-image: url(imgs/pro-visual.png); background-size: cover; background-position: center;">
+					<div class="pro-intro-container">
+						<div class="pro-title">Sketches/Graphic/Animation</div> 
+						<div class="pro-txt">Visual designs</div>
 					</div>
 				</div>
 			</a>	
@@ -272,28 +320,28 @@
 			<img class="img-1" src="imgs/post-daily/18-04-24.png" alt="" />
 		</div>
 
-		<div class="article-title" style="margin: 24px 0 10px 0;">我的短篇分享</div>
+		<div class="article-title">我的短篇分享</div>
 			<div class="masonry">				
-				<img class="post-daily-img" src="imgs/post-daily/18-04-24.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-04-26.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-04-27.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-05-07.png" alt="" />
-			 	<img class="post-daily-img" src="imgs/post-daily/18-05-10.png" alt="" />
-			 	<img class="post-daily-img" src="imgs/post-daily/18-05-11.png" alt="" />
-			 	<img class="post-daily-img" src="imgs/post-daily/18-05-14.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-04-24.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-04-26.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-04-27.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-07.png" alt="" />
+			 	<img class="post-daily-img" src="imgs/post-daily/z-18-05-10.png" alt="" />
+			 	<img class="post-daily-img" src="imgs/post-daily/z-18-05-11.png" alt="" />
+			 	<img class="post-daily-img" src="imgs/post-daily/z-18-05-14.png" alt="" />
 			 	<!-- <img class="post-daily-img" src="imgs/post-daily/18-05-15.png" alt="" /> -->
-				<img class="post-daily-img" src="imgs/post-daily/18-05-18.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-05-21.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-05-23.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-05-24.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-05-25.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-05-28.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-06-04.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-06-07.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-06-11.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-06-12.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-06-25.png" alt="" />
-				<img class="post-daily-img" src="imgs/post-daily/18-07-03.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-18.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-21.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-23.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-24.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-25.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-05-28.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-06-04.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-06-07.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-06-11.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-06-12.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-06-25.png" alt="" />
+				<img class="post-daily-img" src="imgs/post-daily/z-18-07-03.png" alt="" />
 			</div>
 
 	</div>
