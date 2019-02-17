@@ -370,32 +370,6 @@
 
 	<script type="text/javascript">
 
-		var src = new Array();
-			src.push('imgs/pro-cabinet.jpg'); 
-			src.push('imgs/pro-customer.png'); 
-			src.push('imgs/pro-comments.png'); 
-			src.push('imgs/pro-cabinet.jpg'); 
-			src.push('imgs/pro-cabinet.jpg'); 
-			src.push('imgs/pro-cabinet.jpg'); 
-			src.push('imgs/pro-cabinet.jpg'); 
-			src.push('imgs/pro-cabinet.jpg'); 
-			src.push('imgs/pro-cabinet.jpg'); 
-
-		function preload(src, index) {
-			index = index || 0;
-			if(index >= 10) {
-				return false;
-			}
-			if (src && src.length > index) {
-				varimg = new Image();
-				img.onload = function() {
-						preload(src, index + 1);
-				}
-				img.src = src[index];
-			}
-		}
-		preload(src);
-
 		$(document).ready(function() {
 			$("#tagAll").click(function(){
 				$(".project-container").show();
