@@ -37,6 +37,9 @@ img{
 	background-size: 1200px;
 	background-position: center;
 }
+a.download-btn-main{
+	color: #333; 
+}
 .download-btn-main{
 	width: 100%;
 	height: 100px;
