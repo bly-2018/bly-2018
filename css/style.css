@@ -37,7 +37,7 @@ img{
 	background-size: 1200px;
 	background-position: center;
 }
-a.download-btn-main{
+a.download-btn-main, a.download-btn-main:visited{
 	color: #333; 
 }
 .download-btn-main{
